@@ -1,0 +1,23 @@
+{% extends "common/base.html" %}
+
+{% block title %} アプリA {% endblock %}
+
+
+<!--ヘッダー-->
+{% include "common/base_header.html" %}
+
+
+
+
+
+{% block content %}
+
+
+<h1>アプリA</h1>
+
+
+<a href="{{ url_for('common.main') }}">Common</a>
+
+<a href="{{ url_for('app_a.main') }}">App A</a>
+
+{% endblock %}

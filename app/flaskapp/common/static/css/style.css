@@ -1,0 +1,23 @@
+.teststyle {
+    font-style: italic;
+    font-size: 30px;
+}
+
+h1{
+    background-color: yellow;
+}
+
+.calc_input_num{
+    background-color: orange;
+    margin: 5px 10px;
+    font-size: 50px;
+    border-radius:5px;
+    width: 50px;
+}
+.calc_input_ope{
+    background-color: lightgoldenrodyellow;
+    margin: 5px 10px;
+    font-size: 50px;
+    border-radius:5px;
+    width: 50px;
+}

@@ -1,0 +1,19 @@
+{% extends "common/base.html" %}
+
+{% block title %} 共通要素置き場 {% endblock %}
+
+
+<!--ヘッダー-->
+{% include "common/base_header.html" %}
+
+
+
+{% block content %}
+
+<h1>Commonページ</h1>
+
+
+<a href="{{ url_for('app_a.main') }}">App a</a>
+
+
+{% endblock %}
