@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Blueprint設定
 from common import views as common_views
-from app_A import views as app_A_views
+from app_a import views as app_A_views
 
 # register_blueprintを使いviewsのcalc_in_clntをアプリへ登録する
 app.register_blueprint(common_views.common, url_prefix="/common")
